@@ -246,7 +246,8 @@
                 dh:     info.dh,
                 ratio:  info.ratio,
                 w:      thumbWidth,
-                h:      thumbHeight
+                h:      thumbHeight,
+                thumb:  img
             };
             $('#' + o.idCropInfo).val(JSON.stringify(cropInfo));
             
